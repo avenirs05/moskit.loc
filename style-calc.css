@@ -1,18 +1,25 @@
-#calc-wrapper {
-	font-size: 16px;
-  font-weight: 350;
-  color: #000;
+#net-calc .quest-section {
+	margin-bottom: 40px;
 }
 
-#calc-wrapper h2 {
-	text-align: center;
-	margin-bottom: 10px;
-	font-weight: 600;
-	color: #000;
-	font-size: 36px;
-	line-height: 1.23;
-	margin-top: 10px;
+#net-calc button[type="submit"] {
+	margin-bottom: 30px;
 }
+
+#net-calc input[type="text"],
+#net-calc input[type="number"] {
+	width: 20%;
+}
+
+#final-sum {
+	color: green;
+	font-weight: bold;
+}
+
+#final-sum-wrap {
+	font-size: 20px;
+}
+
 
 
 
