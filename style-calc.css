@@ -2,6 +2,10 @@
 	margin-bottom: 40px;
 }
 
+#net-calc .quest-section > label {
+	font-weight: bold;
+}
+
 #net-calc button[type="submit"] {
 	margin-bottom: 30px;
 }

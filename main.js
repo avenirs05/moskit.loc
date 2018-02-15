@@ -7,8 +7,10 @@ jQuery(document).ready(function () {
 			var quantity = $('#net-quantity').val();
 			var square = $('#width-net').val() * $('#height-net').val() / 1000000;
 
+			if (square < 1) {
+						square = 1;
+			}
 			
-
 			if ( $('#standard-type').prop('checked') ) {
 						res = square * 500 * quantity;
 			}

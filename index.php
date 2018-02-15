@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
   <head>
     <title>Калькулятор расчета стоимости москитной сетки</title>
@@ -17,82 +17,65 @@
 				<div class="col">
 					<h2 class="text-center">Калькулятор расчета стоимости москитной сетки</h2>
 					<form id="net-calc">
-
-						<div id="type-wrap" class="quest-section">
-							<div><b>Вид сетки (полотно)</b></div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="standard-type" name="net-type" class="custom-control-input">
-							  <label class="custom-control-label" for="standard-type">Стандартная</label>
-							</div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="anticat-type" name="net-type" class="custom-control-input">
-							  <label class="custom-control-label" for="anticat-type">Антикошка</label>
-							</div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="antidust-type" name="net-type" class="custom-control-input">
-							  <label class="custom-control-label" for="antidust-type">Антипыль</label>
-							</div>
+						
+						<div id="type-net-wrap" class="form-group quest-section">
+						  <label>Вид сетки (полотно)</label>
+						  <select name="type-net" class="form-control" id="type-net-content">
+						    <option class="standard">Стандарт</option>
+						    <option class="antikat">Антикошка (Pet screen)</option>
+						    <option class="antidust">Антипыль (Poll-tex)</option>
+						    <option class="maxivision">Максимальный обзор (MaxiVision)</option>
+						  </select>
 						</div>
 
-						<div id="color-wrap" class="quest-section">
-							<div><b>Цвет</b></div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="white-color" name="net-color" class="custom-control-input">
-							  <label class="custom-control-label" for="white-color">Белый</label>
-							</div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="brown-color" name="net-color" class="custom-control-input">
-							  <label class="custom-control-label" for="brown-color">Коричневый</label>
-							</div>
+						<div id="profile-frame" class="form-group quest-section">
+						  <label>Профиль рамки</label>
+						  <select name="profile-frame" class="form-control" id="profile-frame-content">
+						    <option class="standard">Стандарт</option>
+						    <option class="powerfull">Усиленая (без импоста)</option>
+						    <option class="vertex">VERTEX</option>						    
+						  </select>
 						</div>
 
-						<div id="power-wrap" class="quest-section">
-							<div><b>Усиление</b></div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="power-no" name="net-power" class="custom-control-input">
-							  <label class="custom-control-label" for="power-no">Нет (с поперечиной)</label>
-							</div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="power-yes" name="net-power" class="custom-control-input">
-							  <label class="custom-control-label" for="power-yes">Есть (без поперечины)</label>
-							</div>
+						<div id="color-frame" class="form-group quest-section">
+						  <label>Цвет рамки (профиля)</label>
+						  <select name="color-frame" class="form-control" id="color-frame-content">
+						    <option class="white-not-vertex">Белый</option>
+						    <option class="brown-not-vertex">Коричневый</option>
+						    <option class="white-vertex">Белый (VERTEX)</option>		
+						    <option class="brown-vertex">Коричневый (VERTEX)</option>
+						    <option class="grey-vertex">Серый (VERTEX)</option>						    
+						    <option class="gold-oak-vertex">Золотой дуб (VERTEX)</option>			
+						    <option class="mahogany-vertex">Махагон (VERTEX)</option>
+						    <option class="stained-oak-vertex">Мореный дуб (VERTEX)</option>
+						    <option class="ral">RAL (аэрозольная краска)</option>							    
+						  </select>
 						</div>
 
-						<div id="fastening-wrap" class="quest-section">
-							<div><b>Крепление</b></div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="standard-fastening" name="net-fastening" class="custom-control-input">
-							  <label class="custom-control-label" for="standard-fastening">Стандартное</label>
-							</div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="metal-fastening" name="net-fastening" class="custom-control-input">
-							  <label class="custom-control-label" for="metal-fastening">Металл</label>
-							</div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="pvh-fastening" name="net-fastening" class="custom-control-input">
-							  <label class="custom-control-label" for="pvh-fastening">ПВХ</label>
-							</div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="plung-fastening" name="net-fastening" class="custom-control-input">
-							  <label class="custom-control-label" for="plung-fastening">Плунжер</label>
-							</div>
-							<div class="custom-control custom-radio">
-							  <input type="radio" id="hook-fastening" name="net-fastening" class="custom-control-input">
-							  <label class="custom-control-label" for="hook-fastening">Крючки</label>
-							</div>
+						<div id="handle" class="form-group quest-section">
+						  <label>Ручка</label>
+						  <select name="handle" class="form-control" id="handle-content">
+						    <option class="pvh-simple">ПВХ</option>
+						    <option class="pvh-transparent">ПВХ прозрачная</option>						    
+						    <option class="pvh-brown">ПВХ коричневая</option>		
+						    <option class="metal">Металл</option>							    
+						  </select>
 						</div>
 
-						<div id="size-wrap" class="quest-section">
-							<div class="form-group">
-							  <label for="width-net"><b>Ширина сетки (мм)</b></label>
-							  <input type="text" class="form-control" id="width-net">
-							</div>
-							
-							<div class="form-group">
-							  <label for="height-net"><b>Высота сетки (мм)</b></label>
-							  <input type="text" class="form-control" id="height-net">
-							</div>
-						</div>
+
+
+
+					 <div id="size-wrap" class="quest-section">
+						 <div class="form-group">
+						   <label for="width-net"><b>Ширина сетки (мм)</b></label>
+						   <input type="text" class="form-control" id="width-net">
+					   </div>
+						
+						 <div class="form-group">
+						   <label for="height-net"><b>Высота сетки (мм)</b></label>
+						   <input type="text" class="form-control" id="height-net">
+					   </div>
+					 </div>
 
 						<div id="size-wrap" class="quest-section">
 							<div class="form-group">
