@@ -21,57 +21,57 @@
 						<div id="type-net-wrap" class="form-group quest-section">
 						  <label>Вид сетки (полотно)</label>
 						  <select name="type-net" class="form-control" id="type-net-content">
-						    <option value="type-net-standard" class="standard">Стандарт</option>
-						    <option value="type-net-antikat" class="antikat">Антикошка (Pet screen)</option>
-						    <option value="type-net-antidust" class="antidust">Антипыль (Poll-tex)</option>
-						    <option value="type-net-maxivision" class="maxivision">Максимальный обзор (MaxiVision)</option>
+						    <option value="type-net-standard">Стандарт</option>
+						    <option value="type-net-antikat">Антикошка (Pet screen)</option>
+						    <option value="type-net-antidust">Антипыль (Poll-tex)</option>
+						    <option value="type-net-maxivision">Максимальный обзор (MaxiVision)</option>
 						  </select>
 						</div>
 
-						<div id="profile-frame" class="form-group quest-section">
+						<div id="profile-wrap" class="form-group quest-section">
 						  <label>Профиль рамки</label>
-						  <select name="profile-frame" class="form-control" id="profile-frame-content">
-						    <option class="standard">Стандарт</option>
-						    <option class="powerfull">Усиленая (без импоста)</option>
-						    <option class="vertex">VERTEX</option>						    
+						  <select name="profile" class="form-control" id="profile-content">
+						    <option value="profile-standard">Стандарт</option>
+						    <option value="profile-powerfull">Усиленая (без импоста)</option>
+						    <option value="profile-vertex">VERTEX</option>						    
 						  </select>
 						</div>
 
-						<div id="color-frame" class="form-group quest-section">
+						<div id="color-wrap" class="form-group quest-section">
 						  <label>Цвет рамки (профиля)</label>
-						  <select name="color-frame" class="form-control" id="color-frame-content">
-						    <option class="white-not-vertex">Белый</option>
-						    <option class="brown-not-vertex">Коричневый</option>
-						    <option class="white-vertex">Белый (VERTEX)</option>		
-						    <option class="brown-vertex">Коричневый (VERTEX)</option>
-						    <option class="grey-vertex">Серый (VERTEX)</option>						    
-						    <option class="gold-oak-vertex">Золотой дуб (VERTEX)</option>			
-						    <option class="mahogany-vertex">Махагон (VERTEX)</option>
-						    <option class="stained-oak-vertex">Мореный дуб (VERTEX)</option>
-						    <option class="ral">RAL (аэрозольная краска)</option>							    
+						  <select name="color" class="form-control" id="color-content">
+						    <option value="color-white-not-vertex">Белый</option>
+						    <option value="color-brown-not-vertex">Коричневый</option>
+						    <option value="color-white-vertex">Белый (VERTEX)</option>		
+						    <option value="color-brown-vertex">Коричневый (VERTEX)</option>
+						    <option value="color-grey-vertex">Серый (VERTEX)</option>						    
+						    <option value="color-gold-oak-vertex">Золотой дуб (VERTEX)</option>			
+						    <option value="color-mahogany-vertex">Махагон (VERTEX)</option>
+						    <option value="color-stained-oak-vertex">Мореный дуб (VERTEX)</option>
+						    <option value="color-ral">RAL (аэрозольная краска)</option>							    
 						  </select>
 						</div>
 
 						<div id="handle" class="form-group quest-section">
 						  <label>Ручка</label>
 						  <select name="handle" class="form-control" id="handle-content">
-						    <option class="pvh-simple">ПВХ</option>
-						    <option class="pvh-transparent">ПВХ прозрачная</option>						    
-						    <option class="pvh-brown">ПВХ коричневая</option>		
-						    <option class="metal">Металл</option>							    
+						    <option value="handlr-pvh-simple">ПВХ</option>
+						    <option value="handlr-pvh-transparent">ПВХ прозрачная</option>						    
+						    <option value="handlr-pvh-brown">ПВХ коричневая</option>		
+						    <option value="handlr-metal">Металл</option>							    
 						  </select>
 						</div>
 
 						<div id="fastening" class="form-group quest-section">
 						  <label>Крепление</label>
 						  <select name="fastening" class="form-control" id="fastening-content">
-						    <option class="pvh-2-pairs">ПВХ (2 пары)</option>
-						    <option class="metal-2-pairs">Металл (2 пары)</option>						    
-						    <option class="plunger-4">Плунжер (4 шт)</option>		
-						    <option class="baran-4">Барашек (4 шт)</option>
-						    <option class="metal-inside">Металл (внутреннее)</option>		
-						    <option class="vertex-9-mm">VERTEX (наплав 9 мм)</option>		
-						    <option class="vertex-13-mm">VERTEX (наплав 13 мм)</option>								    
+						    <option value="fastening-pvh-2-pairs">ПВХ (2 пары)</option>
+						    <option value="fastening-metal-2-pairs">Металл (2 пары)</option>						    
+						    <option value="fastening-plunger-4">Плунжер (4 шт)</option>		
+						    <option value="fastening-baran-4">Барашек (4 шт)</option>
+						    <option value="fastening-metal-inside">Металл (внутреннее)</option>		
+						    <option value="fastening-vertex-9-mm">VERTEX (наплав 9 мм)</option>		
+						    <option value="fastening-vertex-13-mm">VERTEX (наплав 13 мм)</option>								    
 						  </select>
 						</div>
 
@@ -87,7 +87,7 @@
 							</div>
 						</div>
 
-						<div id="screws" class="quest-section">
+						<div id="screws-wrap" class="quest-section">
 							<div><b>Саморезы</b></div>
 							<div class="form-check form-check-inline">
 							  <input class="form-check-input" type="radio" name="screws" id="screws-yes" value="screws-yes">
@@ -111,10 +111,10 @@
 						 </div>
 						</div>
 
-						<div id="size-wrap" class="quest-section">
+						<div id="quantity-wrap" class="quest-section">
 							<div class="form-group">
-							  <label for="net-quantity"><b>Количество</b></label>
-							  <input type="number" class="form-control" id="net-quantity" name="net-quatity" value="1">
+							  <label for="quantity"><b>Количество</b></label>
+							  <input type="number" class="form-control" id="quantity" name="quantity" value="1">
 							</div>			
 						</div>
 
