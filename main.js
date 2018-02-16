@@ -13,33 +13,15 @@ jQuery(document).ready(function () {
 						square = 1;
 			}
 
-			if ( $('#linen-content option').filter(':selected').val() == 'linen-standard' ) {
-						res = (square * rate.linen.standard * quantity) + 
-						getProfileSum() +  getColorSum() + getHandleSum() + getFasteningSum() + getScrewsSum();
-			}
-
-			if ( $('#linen-content option').filter(':selected').val() == 'linen-antikat' ) {			
-						res = (square * rate.linen.anticat * quantity) + 
-						getProfileSum() +  getColorSum() + getHandleSum() + getFasteningSum() + getScrewsSum();
-			}
-
-			if ( $('#linen-content option').filter(':selected').val() == 'linen-antidust' ) {
-						res = (square * rate.linen.antidust * quantity) + 
-						getProfileSum() +  getColorSum() + getHandleSum() + getFasteningSum() + getScrewsSum();
-			}
-
-			if ( $('#linen-content option').filter(':selected').val() == 'linen-maxivision' ) {
-						res = (square * rate.linen.maxivision * quantity) + 
-						getProfileSum() +  getColorSum() + getHandleSum() + getFasteningSum() + getScrewsSum();
-			}
-
-
-
-
-
-			
-			
-
+			res = (square * getLinenSum() )        + 
+														 getProfileSum()   +  
+														 getColorSum()     + 
+														 getHandleSum()    + 
+														 getFasteningSum() + 
+														 getFetrSum()      +
+														 getScrewsSum(); 
+						 
+			res *= quantity;
 
 			$('#final-sum').text(res);
 

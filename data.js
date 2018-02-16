@@ -43,8 +43,8 @@
 		},
 		// Фетр
 		fetr: {
-			fetrYesRate: 150,
-			fetrNoRate: 0
+			fetrYes: 150,
+			fetrNo: 0
 		},
 		// Саморезы
 		screws: {

@@ -1,3 +1,22 @@
+	
+	// Вид полотна
+	function getLinenSum () {
+		if ( $('#linen-content option').filter(':selected').val() == 'linen-standard' ) {
+					return rate.linen.standard;
+		}
+		if ( $('#linen-content option').filter(':selected').val() == 'linen-antikat' ) {			
+					return rate.linen.anticat;
+		}
+
+		if ( $('#linen-content option').filter(':selected').val() == 'linen-antidust' ) {
+					return rate.linen.antidust;
+		}
+
+		if ( $('#linen-content option').filter(':selected').val() == 'linen-maxivision' ) {
+					return rate.linen.maxivision;
+		}
+	}
+
 	// Считает профиль рамки
 	function getProfileSum () {
 			if ( $('#profile-content option').filter(':selected').val() == 'profile-standard' ) {
@@ -82,6 +101,13 @@
 			if ( $('#fastening-content option').filter(':selected').val() == 'fastening-vertex-13-mm' ) {
 						return rate.fastening.vertex13mm;
 			}
+	}
+
+	// Саморезы
+	function getFetrSum () {
+			if ( $('#fetr-yes').prop('checked') ) {
+						return rate.fetr.fetrYes;
+			} else return rate.fetr.fetrNo;
 	}
 
 	// Саморезы
