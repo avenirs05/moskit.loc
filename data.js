@@ -1,47 +1,55 @@
-	// Вид сетки (полотно)
-	var standardRate = 420;
-	var antikatRate = 900;
-	var antidustRate = 1250;
-	var maxivisionRate = 700;
-
-	// Профиль рамки
-	var profileStandardRate = 0;
-	var profilePowerfullRate = 800;
-	var profileVertexRate = 500;
-
-	// Цвет рамки
-	var whiteNotVertexRate = 0;
-	var brownNotVertexRate = 50;
-	var whiteVertexRate = 100;
-	var brownVertexRate = 50;
-	var greyVertexRate = 100;
-	var goldOakVertexRate = 300;
-	var mahoganyVertexRate = 300;
-	var stainedOakVertexRate = 300;
-	var ralRate = 500;
-
-	// Ручка
-	var handlePvhSimpleRate = 0;
-	var handlePvhTransparentRate = 0;
-	var handlePvhBrownRate = 30;
-	var handleMetalRate = 30;
-
-	// Крепление
-	var fastPvh2PairsRate = 10;
-	var fastMetal2PairsRate = 25;
-	var fastPlunger4Rate = 320;
-	var fastBaran4Rate = 60;
-	var fastMetalInsideRate = 60;
-	var fastVertex9mmRate = 0;
-	var fastVertex13mmRate = 0;
-
-	// Фетр
-	var fetrYesRate = 150;
-	var fetrNoRate = 0;
-
-
-	// Саморезы
-	var screwsYes = 10;
-	var screwsNo = 0;
-
+	var rate = {
+		// Вид сетки (полотно)
+		linen: {
+			standard: 420,
+			anticat: 900,
+			antidust: 1250,
+			maxivision: 700
+		},
+		// Профиль рамки
+		profile: {
+			standard: 0,
+			powerfull: 800,
+			vertex: 500
+		}, 
+		// Цвет рамки
+		color: {
+			whiteNotVertex: 0,
+			brownNotVertex: 50,
+			whiteVertex: 100,
+			brownVertex: 50,
+			greyVertex: 100,
+			goldOakVertex: 300,
+			mahoganyVertex: 300,
+			stainedOakVertex: 300,
+			ral: 500
+		},
+		// Ручка
+		handle: {
+			pvhSimple: 0,
+			pvhTransparent: 0,
+			pvhBrown: 30,
+			metal: 30
+		},
+		// Крепление
+		fast: {
+			pvh2Pairs: 10,
+			metal2Pairs: 25,
+			plunger4: 320,
+			baran4: 60,
+			metalInside: 60,
+			vertex9mm: 0,
+			vertex13mm: 0
+		},
+		// Фетр
+		fetr: {
+			fetrYesRate: 150,
+			fetrNoRate: 0
+		},
+		// Саморезы
+		screws: {
+			screwsYes: 10,
+			screwsNo: 0
+		}
+	}
 

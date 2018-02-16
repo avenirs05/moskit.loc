@@ -18,13 +18,13 @@
 					<h2 class="text-center">Калькулятор расчета стоимости москитной сетки</h2>
 					<form id="net-calc">
 						
-						<div id="type-net-wrap" class="form-group quest-section">
+						<div id="linen-wrap" class="form-group quest-section">
 						  <label>Вид сетки (полотно)</label>
-						  <select name="type-net" class="form-control" id="type-net-content">
-						    <option value="type-net-standard">Стандарт</option>
-						    <option value="type-net-antikat">Антикошка (Pet screen)</option>
-						    <option value="type-net-antidust">Антипыль (Poll-tex)</option>
-						    <option value="type-net-maxivision">Максимальный обзор (MaxiVision)</option>
+						  <select name="linen" class="form-control" id="linen-content">
+						    <option value="linen-standard">Стандарт</option>
+						    <option value="linen-antikat">Антикошка (Pet screen)</option>
+						    <option value="linen-antidust">Антипыль (Poll-tex)</option>
+						    <option value="linen-maxivision">Максимальный обзор (MaxiVision)</option>
 						  </select>
 						</div>
 
@@ -52,17 +52,17 @@
 						  </select>
 						</div>
 
-						<div id="handle" class="form-group quest-section">
+						<div id="handle-wrap" class="form-group quest-section">
 						  <label>Ручка</label>
 						  <select name="handle" class="form-control" id="handle-content">
-						    <option value="handlr-pvh-simple">ПВХ</option>
-						    <option value="handlr-pvh-transparent">ПВХ прозрачная</option>						    
-						    <option value="handlr-pvh-brown">ПВХ коричневая</option>		
-						    <option value="handlr-metal">Металл</option>							    
+						    <option value="handle-pvh-simple">ПВХ</option>
+						    <option value="handle-pvh-transparent">ПВХ прозрачная</option>						    
+						    <option value="handle-pvh-brown">ПВХ коричневая</option>		
+						    <option value="handle-metal">Металл</option>							    
 						  </select>
 						</div>
 
-						<div id="fastening" class="form-group quest-section">
+						<div id="fastening-wrap" class="form-group quest-section">
 						  <label>Крепление</label>
 						  <select name="fastening" class="form-control" id="fastening-content">
 						    <option value="fastening-pvh-2-pairs">ПВХ (2 пары)</option>
@@ -75,7 +75,7 @@
 						  </select>
 						</div>
 
-						<div id="fetr" class="quest-section">
+						<div id="fetr-wrap" class="quest-section">
 							<div><b>Фетр</b></div>
 							<div class="form-check form-check-inline">
 							  <input class="form-check-input" type="radio" name="fetr" id="fetr-yes" value="fetr-yes">
