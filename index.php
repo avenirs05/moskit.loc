@@ -137,7 +137,8 @@
 	<script src="js/bootstrap.min.js"></script>
 
 	<!-- My Own Js-scripts -->
-	<script src="data.js"></script>	
+	<script src="data.js"></script>
+	<script src="func.js"></script>		
 	<script src="main.js"></script>
 
 

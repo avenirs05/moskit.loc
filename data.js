@@ -1,4 +1,3 @@
-	
 	// Вид сетки (полотно)
 	var standardRate = 420;
 	var antikatRate = 900;
