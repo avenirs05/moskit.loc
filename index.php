@@ -21,10 +21,10 @@
 						<div id="type-net-wrap" class="form-group quest-section">
 						  <label>Вид сетки (полотно)</label>
 						  <select name="type-net" class="form-control" id="type-net-content">
-						    <option class="standard">Стандарт</option>
-						    <option class="antikat">Антикошка (Pet screen)</option>
-						    <option class="antidust">Антипыль (Poll-tex)</option>
-						    <option class="maxivision">Максимальный обзор (MaxiVision)</option>
+						    <option value="type-net-standard" class="standard">Стандарт</option>
+						    <option value="type-net-antikat" class="antikat">Антикошка (Pet screen)</option>
+						    <option value="type-net-antidust" class="antidust">Антипыль (Poll-tex)</option>
+						    <option value="type-net-maxivision" class="maxivision">Максимальный обзор (MaxiVision)</option>
 						  </select>
 						</div>
 
@@ -102,19 +102,19 @@
 						<div id="size-wrap" class="quest-section">
 						 <div class="form-group">
 						   <label for="width-net"><b>Ширина сетки (мм)</b></label>
-						   <input type="text" class="form-control" id="width-net">
+						   <input type="text" class="form-control" id="width-net" value="1">
 						 </div>
 
 						 <div class="form-group">
 						   <label for="height-net"><b>Высота сетки (мм)</b></label>
-						   <input type="text" class="form-control" id="height-net">
+						   <input type="text" class="form-control" id="height-net" value="1">
 						 </div>
 						</div>
 
 						<div id="size-wrap" class="quest-section">
 							<div class="form-group">
 							  <label for="net-quantity"><b>Количество</b></label>
-							  <input type="number" class="form-control" id="net-quantity" name="net-quatity">
+							  <input type="number" class="form-control" id="net-quantity" name="net-quatity" value="1">
 							</div>			
 						</div>
 
@@ -124,8 +124,6 @@
 							<b>Итоговая сумма:</b>&nbsp;
 							<span id="final-sum">0</span> руб.
 						</p>
-						
-
 
 					</form>
 				</div>
