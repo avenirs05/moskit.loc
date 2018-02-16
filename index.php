@@ -62,20 +62,54 @@
 						  </select>
 						</div>
 
+						<div id="fastening" class="form-group quest-section">
+						  <label>Крепление</label>
+						  <select name="fastening" class="form-control" id="fastening-content">
+						    <option class="pvh-2-pairs">ПВХ (2 пары)</option>
+						    <option class="metal-2-pairs">Металл (2 пары)</option>						    
+						    <option class="plunger-4">Плунжер (4 шт)</option>		
+						    <option class="baran-4">Барашек (4 шт)</option>
+						    <option class="metal-inside">Металл (внутреннее)</option>		
+						    <option class="vertex-9-mm">VERTEX (наплав 9 мм)</option>		
+						    <option class="vertex-13-mm">VERTEX (наплав 13 мм)</option>								    
+						  </select>
+						</div>
 
+						<div id="fetr" class="quest-section">
+							<div><b>Фетр</b></div>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="radio" name="fetr" id="fetr-yes" value="fetr-yes">
+							  <label class="form-check-label" for="fetr-yes">Нужен</label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="radio" name="fetr" id="fetr-no" value="fetr-no">
+							  <label class="form-check-label" for="fetr-no">Не нужен</label>
+							</div>
+						</div>
 
+						<div id="screws" class="quest-section">
+							<div><b>Саморезы</b></div>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="radio" name="screws" id="screws-yes" value="screws-yes">
+							  <label class="form-check-label" for="fetr-yes">Нужны</label>
+							</div>
+							<div class="form-check form-check-inline">
+							  <input class="form-check-input" type="radio" name="screws" id="screws-no" value="screws-no">
+							  <label class="form-check-label" for="fetr-no">Не нужны</label>
+							</div>
+						</div>
 
-					 <div id="size-wrap" class="quest-section">
+						<div id="size-wrap" class="quest-section">
 						 <div class="form-group">
 						   <label for="width-net"><b>Ширина сетки (мм)</b></label>
 						   <input type="text" class="form-control" id="width-net">
-					   </div>
-						
+						 </div>
+
 						 <div class="form-group">
 						   <label for="height-net"><b>Высота сетки (мм)</b></label>
 						   <input type="text" class="form-control" id="height-net">
-					   </div>
-					 </div>
+						 </div>
+						</div>
 
 						<div id="size-wrap" class="quest-section">
 							<div class="form-group">
@@ -88,7 +122,7 @@
 
 						<p id="final-sum-wrap">
 							<b>Итоговая сумма:</b>&nbsp;
-							<span id="final-sum">1250</span> руб.
+							<span id="final-sum">0</span> руб.
 						</p>
 						
 
