@@ -90,12 +90,12 @@
 						<div id="screws-wrap" class="quest-section">
 							<div><b>Саморезы</b></div>
 							<div class="form-check form-check-inline">
-							  <input class="form-check-input" type="radio" name="screws" id="screws-yes" value="screws-yes">
-							  <label class="form-check-label" for="fetr-yes">Нужны</label>
+							  <input class="form-check-input" type="radio" name="screws" id="screws-yes">
+							  <label class="form-check-label" for="screws-yes">Нужны</label>
 							</div>
 							<div class="form-check form-check-inline">
-							  <input class="form-check-input" type="radio" name="screws" id="screws-no" value="screws-no">
-							  <label class="form-check-label" for="fetr-no">Не нужны</label>
+							  <input class="form-check-input" type="radio" name="screws" id="screws-no">
+							  <label class="form-check-label" for="screws-no">Не нужны</label>
 							</div>
 						</div>
 

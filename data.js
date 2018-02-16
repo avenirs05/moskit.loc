@@ -32,7 +32,7 @@
 			metal: 30
 		},
 		// Крепление
-		fast: {
+		fastening: {
 			pvh2Pairs: 10,
 			metal2Pairs: 25,
 			plunger4: 320,
